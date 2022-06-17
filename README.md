@@ -1,7 +1,13 @@
-# Vue 3 + Vite
+Quill editor's dropdown stops working after the component is toggled by v-if.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+It works fine in development mode but not in production.
 
-## Recommended IDE Setup
+![quill-bug](https://user-images.githubusercontent.com/51456572/174255639-de0856b8-b0d6-4335-9332-767507893dbd.gif)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+1. git clone https://github.com/ga676005/quill-bug.git
+2. npm i
+3. npm run build
+4. npm run preview
+5. open the page
+6. click the toggle button to show Editor, notice the dropdown is clickable
+7. click the toggle button twice to hide and show Editor again, now dropdown is not clickable
