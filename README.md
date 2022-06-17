@@ -6,8 +6,9 @@ It works fine in development mode but not in production.
 
 1. git clone https://github.com/ga676005/quill-bug.git
 2. npm i
-3. npm run build
-4. npm run preview
-5. open the page
-6. click the toggle button to show Editor, notice the dropdown is clickable
-7. click the toggle button twice to hide and show Editor again, now dropdown is not clickable
+3. cd quill-bug
+4. npm run build
+5. npm run preview
+6. open the page
+7. click the toggle button to show Editor, notice the dropdown is clickable
+8. click the toggle button twice to hide and show Editor again, now dropdown is not clickable
